@@ -11,6 +11,7 @@
   inputs.src-asciitext-master.ref   = "refs/heads/master";
   inputs.src-asciitext-master.owner = "Himujjal";
   inputs.src-asciitext-master.repo  = "asciitextNim";
+  inputs.src-asciitext-master.dir   = "";
   inputs.src-asciitext-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
